@@ -1,0 +1,376 @@
+html {
+  border-top: 5px solid #fff;
+  background: #58DDAF;
+  color: #2a2a2a;
+        font-family: Montserrat;
+}
+nav {
+    background: white;
+    position:fixed;
+    z-index: 1999;
+    top:0;
+    height: 10%;
+    width: 100%;
+    max-height: 10%;
+    padding: 10 50 20 20;
+    padding-left: 5%;
+}
+nav i{
+    font-size: 200%;
+}
+nav ul {
+    float: right;
+    list-style: none;
+    font-size: 100%;
+    margin-top:1%;
+    margin-right: 2%;
+    font-family: Montserrat;
+}
+nav li{
+    display: inline-block;
+    color: black;
+    top:0;
+    margin-right:20px;
+}
+nav li:hover{
+}
+nav a {
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    color:mediumaquamarine; 
+    border-bottom: solid;
+}    
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+.bgslide{
+    background-color: hsla(0,0%, 0%,0.5);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+.panel{
+    width:40%;
+    max-width: 40%;
+    height: 75%;
+    margin: auto;
+    position: relative;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 999;
+    border-radius: 10px;
+    margin-top: -40%;
+    text-align:center;
+}
+.panel h2{
+    color: black;
+    padding: 10 10 10 10;
+}
+.panel input[type=text]{
+    margin-top: 2%;
+    text-align: center;
+    position:relative;
+    border-radius: 5%;
+}
+.panel input[type=password]{
+    margin-top: 2%;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+}
+.panel input[type=checkbox]{
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+}
+.panel button{
+    margin:auto;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    position: relative;
+    width:55%;
+    padding-bottom:10px;
+}
+.panel button:hover{
+    margin:auto;
+    transform: scale(1.05);
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    position: relative;
+    width:55%;
+    padding-bottom:10px;
+}
+.panel h5{
+    padding-bottom: none;
+}
+
+.panel a{
+    color:mediumaquamarine;
+    text-decoration: none;
+}
+.blur{
+        -webkit-filter: blur(1px); /* Safari */
+    filter: blur(1px);
+}
+.panel2{
+    width:40%;
+    max-width: 40%;
+    height: 85%;
+    margin: auto;
+    position: relative;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 999;
+    border-radius: 10px;
+    margin-top: -44%;
+    text-align:center;
+}
+.panel2 h2{
+    color: black;
+    padding: 10 10 10 10;
+}
+.panel2 input[type=text]{
+    margin-top: 2%;
+    text-align: center;
+    position:relative;
+    border-radius: 5%;
+}
+.panel2 input[type=password]{
+    margin-top: 2%;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+}
+.panel2 input[type=checkbox]{
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+}
+.panel2 button{
+    margin:auto;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    position: relative;
+    width:55%;
+    padding-bottom:10px;
+}
+.panel2 button:hover{
+    margin:auto;
+    transform: scale(1.05);
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    position: relative;
+    width:55%;
+    padding-bottom:10px;
+}
+.panel2 h5{
+    padding-bottom: none;
+}
+
+.panel2 a{
+    color:mediumaquamarine;
+    text-decoration: none;
+}
+.formattic{
+    margin-top: 5%;
+    background-color: whitesmoke;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+    margin-left:10%;
+    margin-right:5%;
+    
+}
+.formattic h1{
+    color:black
+}
+td{
+    top:0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-right: 0;
+    padding :1%;
+    text-align:left;
+}
+.panelfgt{
+    width:40%;
+    max-width: 40%;
+    height: 55%;
+    margin: auto;
+    position: relative;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 999;
+    border-radius: 10px;
+    margin-top: -40%;
+    text-align:center;
+}
+.panelfgt h2{
+    color: black;
+    padding: 10 10 10 10;
+}
+.panelfgt input[type=text]{
+    margin-top: 2%;
+    text-align: center;
+    position:relative;
+    border-radius: 5%;
+}
+.panelfgt input[type=password]{
+    margin-top: 2%;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+}
+.panelfgt input[type=checkbox]{
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+}
+.panelfgt button{
+    margin:auto;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    position: relative;
+    width:55%;
+    padding-bottom:10px;
+}
+.panelfgt button:hover{
+    margin:auto;
+    transform: scale(1.05);
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    position: relative;
+    width:55%;
+    padding-bottom:10px;
+}
+.panelfgt h5{
+    padding-bottom: none;
+}
+
+.panelfgt a{
+    color:mediumaquamarine;
+    text-decoration: none;
+}
+footer{
+    color: white;
+    height:75%;
+    width: 100%;
+    clear: both;
+    background-color: royalblue;
+    float:left;
+    margin-top: 10%;
+}
+.subscribe{
+    background-color: mediumaquamarine;
+    height: 12.5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    width: 100%;
+    color: white;
+}
+.boxxx{
+    width:100%;
+    height:1vw;
+    float: right;
+    padding-left: 55%;
+    margin-top:-4%;
+}
+.boxxx input[type=text]{
+    width:60%;
+
+}
+.subs{
+    transform: scale(3);
+    padding-right: 3%;
+    padding-bottom: 0.5%;
+        
+}
+.btsub{
+    float:right;
+    width:20%;
+    height: 350%;
+    margin-top:2%;
+    margin-left:-10%;
+    margin-right:10%;
+    border-radius: 10%;
+    background-color: mediumaquamarine;
+    border-color: white;
+    color: white;
+    border:solid 4px white;
+    
+}
+.kri{
+    color:white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+.kri b{
+    color:white;
+}
+.kri i{
+    color:white;
+    font-size: 4vw;
+}
+.cert{
+    float: left;
+    margin-top:3%;
+    margin-left:7%;
+}
+.joss{
+    padding-right: 5%;
+    margin-top:-10%;
+    font-size:2vw; 
+}
+.putihh{
+    color:white;
+    transform: scale(5);
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.nomor{
+    
+    margin-left: 15%;
+    font-weight: bold;
+    margin-top: -1%;
+}
+.about{
+    float: right;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+.contact{
+    float: left;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+footer hr{
+    margin-top:16%;
+}
+.pay{
+    float:left;
+    clear: both;
+    margin-top:1%;
+    padding-left: 5%;
+}

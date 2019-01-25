@@ -1,0 +1,71 @@
+html{
+    font-family: Montserrat;
+    zoom:0.8;
+    zoom:-oz-0.8;
+}
+body{
+	margin: 0 auto;
+	background-image: url(../img/foto.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.box{
+	width: 700px;
+	height: 500px;
+	text-align: center;
+	background-color: rgba(2,73,94,0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 12%;
+}
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+	margin: auto;
+	font-size: 60px;
+	font-family: Geosanslight;
+	color: white;
+}
+.box img{
+	width: 190px;
+	height: 200px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+input{
+	height: 30px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: whitesmoke;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #53fce5;
+	border:none;
+}
+box-1{
+	position: absolute;
+	font-family: bebas;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 20px;
+}
+button{
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	border: white 1px solid;
+	margin-top: 5px;
+	text-align: center;
+	width: 200px;
+	border-radius: 2px;
+	background-color: green;
+	font-family: Geosanslight;
+}
+button:hover{
+	background: white;
+}
+

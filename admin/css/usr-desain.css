@@ -1,0 +1,976 @@
+html{
+    font-family: Montseratt;
+    zoom:0.8;
+    zoom:-oz-0.8;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+	position: static;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	position: absolute;
+	height: 8.2%;
+	background-color: red;
+	top: 0%;
+	left: 0%;
+}
+nav{
+	background: #fff;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 8.2%;
+	font-family: sans-serif;
+	color: black;
+}
+nav ul li{
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;		
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+ li .dropdown{
+	position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 80px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+li .mudun{
+	position: relative;
+    display: inline-block;
+
+}
+.mudun-1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 60px;
+}
+.mudun:hover .mudun-1 {
+    display: block;
+}
+.mudun-1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.mudun-1 a:hover {background-color: #f1f1f1}
+
+.mudun:hover .mudun-1 {
+    display: block;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.badan{
+	width: 100%;
+	height: 100%;
+	background-color: #3498db;
+	top: 8%;
+	left: 0px;
+	position: absolute;
+}
+.semua{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	clear: both;
+	top: 0px;
+}
+aside {
+	float: left;
+	position: fixed;
+	overflow-y: auto;
+	z-index: 1;
+	width: 14%;
+	height: 100%;
+	background-color: #2c3e50;
+	top: 8%;
+}	
+aside a{
+	color: white;
+	margin: 8px;
+	margin-left: 0px;  
+}
+.samping ul{
+	list-style-type: none;
+	font-size: 13px;
+	margin: 8;
+	margin-left: 0 auto;
+}
+.samping li{
+	padding: 10px;
+	padding-left: 0px;
+	text-decoration: none;
+	color: black;
+	text-decoration-style: none;
+}
+.samping li a{
+	display: block;
+	text-decoration: none;
+	border: 0px #2b2927;
+}
+.samping a:hover{
+	text-decoration: underline;
+}
+section{
+	width: 86%;
+	height: 100%;
+	float: right;
+	background-color: white;
+	position: relative;
+	top: 0%;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+.satu {
+	width: 100%;
+	height: 20%;
+	background-color: whitesmoke;
+	text-align: center;
+	top:0;
+	position: relative;
+}
+.satu-1{
+	width: 20%;
+	height: 80%;
+	background-color: #2574A9;
+	position: absolute;
+	top: 10%;
+	left: 2.5%;
+	border-radius: 10px;
+}
+.satu-1-1{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.satu-1-1 a{
+	font-size: 90px;
+	color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.satu-1-2 {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.satu-1-2-1 {
+	height: 50%;
+	width: 100%;
+	float: right;
+	
+}
+.satu-1-2-1 p{
+	font-family: bebas;
+	color: white;
+	font-size: 30px;
+	margin-top: 13px;
+	text-align: left;
+}
+
+.satu-1-2-2{
+	height: 50%;
+	width: 100%;
+	float: right;	
+}
+.satu-1-2-2 p{
+	font-family: bebas;
+	color: white;
+	font-size: 20px;
+	margin-top: 13px;
+	text-align: left;
+}
+.satu-2{
+	width: 20%;
+	height: 80%;
+	background-color: #CF000F;
+	position: absolute;
+	top: 10%;
+	left: 27.5%;
+	border-radius: 10px;
+}
+.dua-2-1{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.dua-2-1 a{
+	font-size: 90px;
+	color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.dua-2-2 {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.dua-2-2-1 {
+	height: 50%;
+	width: 100%;
+	float: right;
+	
+}
+.dua-2-2-1 p{
+	font-family: bebas;
+	color: white;
+	font-size: 30px;
+	margin-top: 13px;
+	text-align: left;
+}
+
+.dua-2-2-2{
+	height: 50%;
+	width: 100%;
+	float: right;	
+}
+.dua-2-2-2 p{
+	font-family: bebas;
+	color: white;
+	font-size: 20px;
+	margin-top: 13px;
+	text-align: left;
+}
+.satu-3{
+	width: 20%;
+	height: 80%;
+	background-color: #00e640;
+	position: absolute;
+	top: 10%;
+	left: 52.5%;
+	border-radius: 10px;
+}
+.satu-3-1{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.satu-3-1 a{
+	font-size: 90px;
+	color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.satu-3-2 {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.satu-3-2-1 {
+	height: 50%;
+	width: 100%;
+	float: right;
+	
+}
+.satu-3-2-1 p{
+	font-family: bebas;
+	color: white;
+	font-size: 30px;
+	margin-top: 13px;
+	text-align: left;
+}
+
+.satu-3-2-2{
+	height: 50%;
+	width: 100%;
+	float: right;	
+}
+.satu-3-2-2 p{
+	font-family: bebas;
+	color: white;
+	font-size: 20px;
+	margin-top: 13px;
+	text-align: left;
+}
+.satu-4{
+	width: 20%;
+	height: 80%;
+	background-color: #E87E04;
+	position: absolute;
+	top: 10%;
+	right: 2.5%;
+	border-radius: 10px;
+}
+.satu-4-1{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.satu-4-1 a{
+	font-size: 90px;
+	color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.satu-4-2 {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.satu-4-2-1 {
+	height: 50%;
+	width: 100%;
+	float: right;
+	
+}
+.satu-4-2-1 p{
+	font-family: bebas;
+	color: white;
+	font-size: 30px;
+	margin-top: 13px;
+	text-align: left;
+}
+
+.satu-4-2-2{
+	height: 50%;
+	width: 100%;
+	float: right;	
+}
+.satu-4-2-2 p{
+	font-family: bebas;
+	color: white;
+	font-size: 20px;
+	margin-top: 13px;
+	text-align: left;
+}
+
+.tiga{
+	width: 100%;
+	height: 500px;
+	top: -2%;
+	background-color: #ecf0f1;
+	text-align: center;
+	position: relative;
+}
+.tiga-1{
+	width: 55%;
+	height: 80%;
+	background-color: whitesmoke;
+	position: relative;
+	float: left;
+	left: 5%;
+	top: 10%;
+	border-radius: 2px;
+}
+.tiga-2{
+	width: 30%;
+	height: 80%;
+	float: right;
+	background-color: whitesmoke;
+	position: relative;
+	right: 5%;
+	top: 10%;
+}
+.empat{
+	width: 100%;
+	height: 100%;
+	top: 144%;
+	position: absolute;
+	text-align: center;	
+}
+
+.lima{
+	width: 100%;
+	height: 500px;
+	top: 23.5%;
+	position: absolute;
+	text-align: center;
+	background-color: #ecf0f1;
+}
+.lima-1{
+	float: left;
+	background-color: #65C6BB;
+	width: 50%;
+	height: 80%;
+	margin-left: 2%;
+	margin-top: 4%;
+	border-radius: 3px;
+}
+.lima-1 p{
+	text-align: center;
+	font-family: bebas;
+	color: white;
+}
+.lima-1-1{
+	margin:auto;
+	width: 100%;
+	height: 100%;
+	background-color: #65C6BB;
+	left: 25%;	
+}
+.lima-1-1 th{
+	padding: 10px;
+	background-color: #65C6BB;
+	color: white;
+	font-family: sans-serif;
+	padding: 22px;
+}
+.lima-1-1 td{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #65C6BB;
+}
+.lima-1-1 td:hover{
+	background-color: green;
+}
+.lima-1-1 #red{
+	color: red;
+} 
+.lima-1-1 h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+.lima-2{
+	float: right;
+	background-color: pink;
+	width: 45%;
+	height: 80%;	
+	margin-right:2%;
+	margin-top: 4%;
+	border-radius: 3px;
+	font-family: arial;
+}
+.lima-2-1 p{
+	margin-top: 0px;
+	color: whitesmoke;
+}
+.lima-2-1{
+	background-color: #2c3e50;
+	width: 100%;
+	height: 10%;
+	border-radius: 2px;
+	top: 0%;
+	position:relative;
+	text-align: center;
+}
+.lima-2-2 p{
+	margin-top: 0px;
+	top: 10%;
+	float: left;
+}
+.lima-2-2{
+	background-color: #bdc3c7;
+	width: 100%;
+	height: 10%;
+	top: 10%;
+	border-radius: 2px;
+}
+.lima-2-2-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #bdc3c7;
+}
+.lima-2-2-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-2-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-3 p{
+	margin-top: 0px;
+	top: 20%;
+}
+.lima-2-3{
+	background-color: #95a5a6;
+	width: 100%;
+	height: 10%;
+	top:20%;
+	border-radius: 2px;
+}
+.lima-2-3-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #95a5a6;
+}
+.lima-2-3-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-3-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-4 p{
+	margin-top: 0px;
+	top: 30%;
+}
+.lima-2-4{
+	background-color: #bdc3c7;
+	width: 100%;
+	height: 10%;
+	top: 30%;
+	border-radius: 2px;
+}
+.lima-2-4-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #bdc3c7;
+}
+.lima-2-4-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-4-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-5 p{
+	margin-top: 0px;
+	top: 40%;
+}
+.lima-2-5{
+	background-color: #95a5a6;
+	width: 100%;
+	height: 10%;
+	top: 40%;
+	border-radius: 2px;
+}
+.lima-2-5-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #95a5a6;
+}
+.lima-2-5-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-5-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-6 p{
+	margin-top: 0px;
+	top: 50%;
+}
+.lima-2-6{
+	background-color: #bdc3c7;
+	width: 100%;
+	height: 10%;
+	top: 50%;
+	border-radius: 2px;
+}
+.lima-2-6-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #bdc3c7;
+}
+.lima-2-6-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-6-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-7 p{
+	margin-top: 0px;
+	top: 60%;
+}
+.lima-2-7{
+	background-color: #95a5a6;
+	width: 100%;
+	height: 10%;
+	top: 60%;
+	border-radius: 2px;
+}
+.lima-2-7-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #95a5a6;
+}
+.lima-2-7-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-7-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-8 p{
+	margin-top: 0px;
+	top: 70%;
+}
+.lima-2-8{
+	background-color: #bdc3c7;
+	width: 100%;
+	height: 10%;
+	top: 70%;
+	border-radius: 2px;
+}
+.lima-2-8-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #bdc3c7;
+}
+.lima-2-8-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-8-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-9 p{
+	margin-top: 0px;
+	top: 80%;
+}
+.lima-2-9{
+	background-color: #95a5a6;
+	width: 100%;
+	height: 10%;
+	top: 80%;
+	border-radius: 2px;
+}
+.lima-2-9-1{
+	width: 60%;
+	float: left;
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #95a5a6;
+}
+.lima-2-9-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-9-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.lima-2-10 p{
+	margin-top: 0px;
+	top: 90%;
+}
+.lima-2-10{
+	background-color: #bdc3c7;
+	width: 100%;
+	top: 90%;
+	height: 10%;
+	border-radius: 2px;
+}
+.lima-2-10-1{
+	width: 60%;
+	float: left;	
+	left: 10%;
+	position: relative;
+	text-align: left;
+	height: 100%;
+	background-color: #bdc3c7;
+}
+.lima-2-10-1 p{
+	margin-top: 8px;
+	color: whitesmoke;
+}
+.lima-2-10-2{
+	width: 40%;
+	float: right;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.enam{
+	width: 100%;
+	height: 600px;
+	top: 1340px;
+	position:relative;
+	text-align: center;
+	background-color: whitesmoke;
+}
+.enam-1 p{
+	float: left;
+	color: white;
+	font-size: 20px;
+	font-family: raleway;
+	position: relative;
+	left: 10px;
+}
+.enam-1{
+	width: 80%;
+	height: 400px;
+	position: relative;
+	background-color: #2C3E50;
+	top: 10%;
+	left: 10%;
+	border-radius: 10px;	
+}
+.user{
+	width: 90%;
+	height: 25px;
+	float: left;
+	top: 20px;
+	background-color: white;
+	left: 5%;
+	border:none;
+	position: relative;
+	border-radius: 3px;
+}
+.subjek{
+	width: 90%;
+	height: 25px;
+	float: left;
+	background-color: white;
+	border: none;
+	left: 5%;
+	top: 40px;
+	position: relative;
+	border-radius: 3px;
+}
+.tampilan{
+	width: 90%;
+	height: 25px;
+	float: left;
+	background-color:;
+	left: 5%;
+	top: 60px;
+	position: relative;
+	border-radius: 3px;
+}
+.tampilan a i{
+	color: black;
+	font-size: 20px;
+	background-color: #ECF0F1;
+}
+.pesan{
+	width: 90%;
+	height: 100px;
+	background-color: white;
+	border: none;
+	float: left;
+	top: 80px;
+	left: 5%;
+	position: relative;
+	border-radius: 3px;
+}
+.kirim{
+	float: right;
+	width: 70px;
+	height: 30px;
+	margin-top: 220px;
+	background-color: white;
+	border-radius: 4px;
+	border: none;
+	margin-right: 20px;
+}
+.kirim:hover{
+	background-color: #ECF0F1;
+}
+.lebih{
+	float: left;
+	width: 70px;
+	height: 30px;
+	margin-top: 120px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border:none;
+	background-color: white;
+}
+.tujuh{
+	width: 100%;
+	height: 500px;
+	top: 0%;
+	position:relative;
+	text-align: center;
+	background-color: whitesmoke;
+}
+.tujuh-1{
+	width: 20%;
+	height: 40%;
+	position: relative;
+	background-color: #7f8c8d;
+	top:10%;
+	left: 2.5%;
+	border-radius: 2px;
+	float: left;
+	border-radius: 0px;
+}
+.tujuh-1-1{
+	width: 100%;
+	height: 95%;
+	background-color: #7f8c8d;
+	top: 5%;
+	background-image: url(../img/boy.png);
+	background-size: 70% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 300px;
+}
+.tujuh-2{
+	width: 15%;
+	height: 80%;
+	position: relative;
+	background-color: #7f8c8d;
+	top:10%;
+	left: 5%;
+	border-radius: 2px;
+	float: left;
+}
+.tujuh-2 ul li{
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+}
+.tujuh-3{
+	width: 55%;
+	height: 80%;
+	position: relative;
+	background-color: #7f8c8d;
+	top:10%;
+	right: 2.5%;
+	border-radius: 2px;
+	float: right;
+}
+.tujuh-3-1{
+	width: 100%;
+	height:10%;
+	background-color: #7f8c8d;
+	position: relative;
+	float: left;
+}
+.tujuh-3-1 h1{
+	float: left;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	color: black;
+}
+.tujuh-3-2{
+	width: 100%;
+	height: 80%;
+	background-color: yellow;
+	position: relative;
+	float: left;
+	background-image: url(../img/map.jpg);
+	background-size: 100% 100%;
+}
+.tujuh-3-3{
+	width: 100%;
+	height:10%;
+	background-color: #7f8c8d;
+	float: left;
+	position: relative;
+}
+.tujuh-3-3 a{
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+}
+.tujuh-4{
+	width: 20%;
+	height: 25%;
+	top:-15%;
+	float: left;
+	left: 2.5%;
+	position: relative;
+	background-color: #7f8c8d;
+	border-radius: 2px;
+}
+footer{
+	clear: both;
+	background-color: #7f8c8d;
+	width: 100%;
+	height: 30px;
+	position: relative;
+	top: 445%;
+	z-index: 1;
+	text-align: center;
+	color: black;
+	font-family: sans-serif; 
+}

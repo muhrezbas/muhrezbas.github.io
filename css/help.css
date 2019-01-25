@@ -1,0 +1,399 @@
+html {
+  border-top: 5px solid #fff;
+  background:white;
+  color: #2a2a2a;
+  font-family: Montserrat;
+}
+nav {
+    height: 70%;
+    background: #22c1c3; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(90deg, #22c1c3, #fdbb2d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg,  #22c1c3, #fdbb2d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg,  #22c1c3, #fdbb2d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg,  #22c1c3, #fdbb2d); /* Standard syntax (must be last) */
+    position:relative;
+    top:0;
+    width: 100%;
+    max-height: 60%;
+    padding: 10 50 20 20;
+    padding-left: 5%;
+    color:white;
+}
+nav i{
+    font-size: 8vw;
+}
+nav ul {
+    float: right;
+    list-style: none;
+    font-size: 100%;
+    margin-top:1%;
+    margin-right: 2%;
+    font-family: Montserrat;
+}
+nav li{
+    display: inline-block;
+    color:white;
+    color:
+    top:0;
+    margin-right:20px;
+}
+nav li:hover{
+}
+nav a {
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    color:whitesmoke; 
+    border-bottom: solid;
+}    
+.tanya{
+    font-size : 2vw;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+input[type=search] {
+    width: 85%;
+    padding: 12px 20px;
+    margin-left: 1%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+button{
+    margin-left:0;
+    height:14%;
+    width:5%;
+    background-color: white;
+     box-sizing: border-box;
+    border-radius: 5%;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+section{
+    margin-top:0;
+    width:100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color: white;
+}
+.hola{
+    font-size: 2vw;
+}
+.log{
+    margin-top: 1%;
+    width:15%;
+    height: 10%;
+    background-color: mediumaquamarine;
+    border: solid  mediumaquamarine;
+    color:white;
+    font-size: large;
+}
+.reg{
+    margin-top: 1%;
+    width:15%;
+    height: 10%;
+    color:mediumaquamarine;
+    border: solid  mediumaquamarine;
+    border-color: mediumaquamarine;
+    font-size: large;
+}
+.log:hover{
+    transform: scale(1.05);
+}
+.reg:hover{
+    transform: scale(1.05);
+}
+hr{
+    border-top: 1px solid #8c8b8b;
+}
+.faq{
+    float:left;
+    padding-top: 1%;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.faq b{
+    font-size:300%;
+}
+.faq i{
+    font-size: 50%;
+    color: lightgray;
+}
+.logo{
+    float:right;
+    transform: scale(10);
+    margin-right:20%;
+    color: white;
+    top:0;
+    margin-top: -10%;
+}
+.linepanel{
+    background-color: cadetblue; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(90deg, cadetblue, mediumaquamarine); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, cadetblue, mediumaquamarine); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, cadetblue, mediumaquamarine); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, cadetblue, mediumaquamarine); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color:white;
+    border-radius: 2%;
+    margin-top:5%;
+    font-weight: 700;
+}
+.small{
+    width:60%;
+    font-style: italic;
+    font-weight: 700;
+}
+.logo2{
+    float:right;
+    transform: scale(10);
+    margin-right:20%;
+    color: whitesmoke;
+    top:0;
+    margin-top: -10%;
+}
+.linepanel2{
+    background-color:palegreen; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, mediumseagreen, palegreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #27ae60, palegreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #27ae60, palegreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg,#27ae60, palegreen); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float: right;
+    margin-top: -14.9%;
+}
+.linepanel3{
+    background-color:#FC5C7D /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, #FC5C7D,#6A82FB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #FC5C7D,#6A82FB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #FC5C7D,#6A82FB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg,#FC5C7D,#6A82FB); /* Standard syntax (must be last) */
+    width:48%;
+    height:50%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float: left;
+    margin-top:1%;
+    margin-bottom: 10%;
+}
+.linepanel4{
+    background-color:#11998e; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, #11998e, #38ef7d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #11998e, #38ef7d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #11998e, #38ef7d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg,#11998e, #38ef7d); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float: right;
+    margin-top:1%;
+}
+.linepanel5{
+    background-color:#c94b4b /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, #c94b4b,#4b134f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #c94b4b,#4b134f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #c94b4b,#4b134f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg,#c94b4b,#4b134f); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left:5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float:left;
+    margin-top:-7%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+.linepanel6{
+    background-color:#3C3B3F; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, #3C3B3F, #605C3C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #3C3B3F, #605C3C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg,#3C3B3F, #605C3C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg,#3C3B3F, #605C3C); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float: right;
+    margin-top:-34.5%;
+}
+.linepanel7{
+    background-color:#fc4a1a/* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, #fc4a1a,#f7b733); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #fc4a1a,#f7b733); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #fc4a1a,#f7b733); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg,#fc4a1a,#f7b733); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left:5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float:left;
+    margin-top:-7%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+.linepanel8{
+    background-color:#3C3B3F; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(180deg, #3C3B3F, #F3F9A7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #3C3B3F, #F3F9A7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg,#3C3B3F, #F3F9A7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg,#3C3B3F, #F3F9A7); /* Standard syntax (must be last) */
+    width:48%;
+    height:30%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color:white;
+    border-radius: 2%;
+    font-weight: 700;
+    float: right;
+    margin-top:-34.5%;
+}
+footer{
+    color: white;
+    height:100%;
+    width: 100%;
+    clear: both;
+    background-color: royalblue;
+    float:left;
+    margin-top: 45%;
+}
+.subscribe{
+    background-color: mediumaquamarine;
+    height: 12.5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    width: 100%;
+    color: white;
+}
+.boxxx{
+    width:100%;
+    height:1vw;
+    float: right;
+    padding-left: 55%;
+    margin-top:-4%;
+}
+.boxxx input[type=text]{
+    width:60%;
+
+}
+.subs{
+    transform: scale(3);
+    padding-right: 3%;
+    padding-bottom: 0.5%;
+        
+}
+.btsub{
+    float:right;
+    width:20%;
+    height: 350%;
+    margin-top:2%;
+    margin-left:-10%;
+    margin-right:10%;
+    border-radius: 10%;
+    background-color: mediumaquamarine;
+    border-color: white;
+    color: white;
+    border:solid 4px white;
+    
+}
+.kri{
+    color:white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+.kri b{
+    color:white;
+}
+.kri i{
+    color:white;
+    font-size: 4vw;
+}
+.cert{
+    float: left;
+    margin-top:3%;
+    margin-left:7%;
+}
+.joss{
+    padding-right: 5%;
+    margin-top:-10%;
+    font-size:2vw; 
+}
+.putihh{
+    color:white;
+    transform: scale(5);
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.nomor{
+    
+    margin-left: 15%;
+    font-weight: bold;
+    margin-top: -1%;
+}
+.about{
+    float: right;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+.contact{
+    float: left;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+footer hr{
+    margin-top:16%;
+}
+.pay{
+    float:left;
+    clear: both;
+    margin-top:1%;
+    padding-left: 5%;
+}
